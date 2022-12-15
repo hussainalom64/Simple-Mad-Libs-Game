@@ -1,0 +1,25 @@
+using System;
+
+namespace Beginner
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string colour, pluralNoun, celebrity;
+
+            Console.WriteLine("Emter a colour");
+            colour = Console.ReadLine();
+
+            Console.WriteLine("Enter a plural noun");
+            pluralNoun = Console.ReadLine();
+
+            Console.WriteLine("Enter a celebrity name");
+            celebrity = Console.ReadLine();
+
+            Console.WriteLine("Roses are " + colour);
+            Console.WriteLine(pluralNoun + " are blue");
+            Console.WriteLine("I love " + celebrity);
+        }
+    }
+}
